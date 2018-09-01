@@ -1,0 +1,80 @@
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark navMJ sticky-top">
+  <a class="navbar-brand" href="#"><img src = "img/logo.png" width = "80" height = 60></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+       <a class="nav-link" href="/gymindex"><h6 class="mj">Home </h6></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/gymgym"><h6 class="mj">Gym </h6></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/gymplanner"><h6 class="mj">Planner</h6></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/gymtrainers"><h6 class="mj">Trainers</h6></a>
+      </li>
+        <li>
+        <li class="nav-item">
+        <a class="nav-link" href="/gympricing"><h6 class="mj">Price List</h6></a>
+      </li>
+    </ul>
+  
+  <sec:authorize access="hasRole('ADMIN')">
+  
+   <ul class="navbar-nav ml-auto">  
+<li class="nav-item">
+        <a class="nav-link" href="/gymcontrolpanel"><h6 class="mj">Control Panel</h6></a>
+      </li> 
+</ul>
+</sec:authorize>
+  <sec:authorize access="hasRole('KLIENT')">
+  
+   <ul class="navbar-nav ml-auto">  
+<li class="nav-item">
+        <a class="nav-link" href="/gymMyProfileKlient"><h6 class="mj">My Account</h6></a>
+      </li> 
+</ul>
+</sec:authorize>
+
+      <sec:authorize access="hasRole('TRENER')">
+
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/gymMyProfileTrener"><h6 class="mj">My Account</h6></a>
+              </li>
+          </ul>
+      </sec:authorize>
+
+      <sec:authorize access="hasRole('PRACOWNIK')">
+
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/gymMyProfilePracownik"><h6 class="mj">My Account</h6></a>
+              </li>
+          </ul>
+      </sec:authorize>
+
+
+ 
+ <sec:authorize access="hasRole('USER')">
+   <ul class="navbar-nav ml-auto">  
+   <li class="nav-item">
+        <a class="nav-link" href="/logout"><h6 class="mj">Logout</h6></a>
+      </li> 
+   </ul>
+  </sec:authorize>
+ 
+   <sec:authorize access="!hasRole('USER')">
+   <ul class="navbar-nav ml-auto">  
+   <li class="nav-item">
+        <a class="nav-link" href="/gymlogin"><h6 class="mj">Login</h6></a>
+      </li> 
+   </ul>
+  </sec:authorize>
+  </div>
+</nav> 

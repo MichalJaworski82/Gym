@@ -1,0 +1,533 @@
+@media screen and (max-width:680px){
+    .login{
+        display:block;
+        width:100%;
+        background: linear-gradient(to right, black, #7c5868);
+         margin:auto;
+    padding:1rem;
+    padding-left: 2rem;
+    }
+}
+@media screen and (min-width:680px){
+    .login{
+    margin:auto;
+    padding:1rem;
+    padding-left: 2rem;
+    background: linear-gradient(to right, black, #7c5868);
+    width: 15rem;
+    }
+}
+
+.cf{
+   padding:0; 
+}
+
+.navMJ{
+     background: linear-gradient(to right, black, #7c5868);
+    width:100%;
+    padding:0;
+}
+
+.nav-link{
+    color:#dbc9d1;
+    width:7rem;
+    margin-top: 2.5rem;
+}
+
+navbar.active{
+ /* text-transform:uppercase; */
+}
+
+.dropdown-toggle::after{
+    display:none;
+    color:#dbc9d1;
+}
+
+.navbar-nav a:hover{
+    color: white;
+    /* text-transform:uppercase; */
+}
+
+ul.navbar-nav a:focus{
+    color: white;
+    /* text-transform:uppercase; */
+}
+
+.dropdown-menu-right{
+    padding: 0;
+}
+
+.form-group-MJ{
+    color:white;
+    padding-bottom: 1rem;
+    display:block;
+}
+
+
+.btn-MJ{
+    width: 6rem;
+    background: linear-gradient(to right, black, #7c5868);
+    padding:0;
+    border-color: white;
+    text-align: center;
+    padding-top: 0.3rem;
+    color:#8c5d72;
+}
+
+.btn-MJ:hover{
+    color:white;
+    
+}
+
+.dropdown-item {
+     background: linear-gradient(to right, black, #7c5868);
+      color: white;
+}
+
+.dropdown-item {
+     background: linear-gradient(to right, black, #7c5868);
+      color: white;
+    display:block;
+}
+
+.dropdown-item-mj {
+    display:block;
+    background: linear-gradient(to right, black, #7c5868);
+    color:#8c5d72;
+    text-align: center;
+    padding:0.3rem;
+    padding-top:0.5rem;
+}
+
+.dropdown-item-mj:hover{
+     color:white;
+    
+}
+
+.dropdown-divider{
+    margin:0;
+
+}
+
+.form-check{
+ color:white   
+}
+
+.section-light{
+    background-color:#ccc3c7;
+    padding: 0.15rem;
+    padding-bottom: 0;
+}
+
+.section-light2{
+    background-color:#ccc3c7;
+    padding: 0.15rem;
+    padding-bottom: 0;
+    min-height: 550px;
+}
+
+
+
+.section-dark{
+    background-color:#7c5868;
+    padding:0.15rem;
+    
+}
+
+.img-c{
+    display:block;
+    margin:auto;
+}
+
+.text_cont{
+   padding:1rem;
+}
+
+.myRow{
+    padding-left:2rem;
+    padding-right: 2rem;
+}
+.myRow2{
+    display:block;
+    margin:auto;
+}
+
+
+.carousel-caption{
+  color: #fff;
+    text-shadow: #631d3c 0px 0px 5px;
+}
+
+
+.jumbotron.jumbotron-fluid{
+    text-align:center;
+    background: none;  
+    padding:0.5rem;
+    padding-bottom: 0;
+}
+
+.jumbotron.jumbo2{
+    text-align:left;
+    background: none;  
+}
+
+
+.myCard{
+    background:none;
+    margin-bottom: 1rem;
+}
+
+.myCard:hover{
+    opacity: 1;
+    background:#7c5868;
+
+}
+
+.myCardBody{
+}
+
+.list-group-item:hover{
+   background-color:#7c5868;
+    /* text-transform:uppercase; */
+ color:black;
+}
+
+.myFooter{
+    background: linear-gradient(to right, black, #7c5868); 
+    
+}
+
+.modalRow{
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+
+
+.coolStuffWeapper{
+    margin-top:20px;
+    
+}
+button.coolStuff-btn{
+    background-color: grey;
+    color:white;
+    display:block;
+    margin:auto;
+}
+button.coolStuff-btn:hover{
+   background-color: #a31023;
+}
+
+button.btn-secondary:hover{
+      background-color: #a31023;
+}
+
+
+h5.modal-title{
+    margin:auto;
+}
+
+.modal-form-wrapper{
+    padding:2rem;
+}
+
+.imgCenter{
+    display:block;
+    margin:auto;
+}
+
+.btnCenter{
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:20px;
+    padding:0.7 rem;
+    width:60%;
+}
+
+.footerImg{
+    padding:14px;
+}
+
+.fa{
+    margin:10px;
+}
+
+.fa-facebook-square{
+    color:#3b5998;
+}
+
+.fa-google-plus-square{
+    color:#c32f10;
+}
+
+.fa-instagram{
+    color:white;
+}
+
+.socialWrapper{
+    margin:auto;
+}
+
+
+/*////////////////////////////////////////////////TRAINERS////////////////////////////////////////////////*/
+.trainers{
+   filter:saturate(15%);
+}
+.trainers:hover{
+    filter:saturate(100%);
+}
+.trainersRow{
+    padding:0.5rem;   
+}
+
+/*////////////////////////////////////////////////TRAINERS////////////////////////////////////////////////*/
+.pricingRow{
+  padding:1rem;
+}
+
+.pricingColumn{
+    display:block;
+}
+
+.card.pricingCard{
+   display:block;
+}
+.card-img-top2{
+  background-color: white;
+    height:14rem;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+.panel-pricing {
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+    border: 2px solid white;
+}
+.panel-pricing:hover {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+.panel-pricing .panel-heading {
+  padding: 20px 10px;
+}
+.panel-pricing .panel-heading .fa {
+  margin-top: 10px;
+  font-size: 58px;
+}
+.panel-pricing .list-group-item {
+  color: #777777;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.panel-pricing .list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.panel-pricing .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.panel-pricing .panel-body {
+  background-color: #f0f0f0;
+  font-size: 40px;
+  color: #777777;
+  padding: 20px;
+  margin: 0px;
+}
+
+/*         ///////////////////////////////////////////////////////GYM///////////////////////////////////////            */
+
+.trainerContainer{
+    position:relative;
+    text-align:center;
+    color:white;
+}
+.centered{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerZ{
+    display:none;
+    margin:auto;
+    padding: 1rem;
+    text-align: center;    
+}
+
+img.gym{
+   opacity:0.5;
+}
+
+/*         ///////////////////////////////////////////////////////PLANNER///////////////////////////////////////            */
+
+.PlannnerMain{
+    padding:0;
+}
+
+.plannerRow-days2{
+       height:2.5rem;
+    padding:0.1rem;
+}
+.plannerColumn2{
+    padding:0.15rem;
+}
+
+.plannerRow2{
+    height:4rem;
+}
+
+.container-planner-day2{
+    display:block;
+    background-color:grey;
+    height:100%;
+    text-align: center;
+    border:1px solid white;
+}
+
+.container-planner-hour2{
+   display:flex;
+    background-color:grey;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+    border:1px solid white;
+}
+
+.container-planner2{
+    display:flex;
+    background-color:lightgray;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+    border:1px solid white;
+}
+
+.container-crossfit2{
+    display:flex;
+    background-color:#402640;
+    color:white;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+    border:1px solid white;
+}
+
+.container-zumba2{
+    display:flex;
+    background-color:#800080;
+    align-items:center;
+    color:white;
+    justify-content: center;
+    height:100%;
+    border:1px solid white;
+}
+
+.container-strength{
+    display:flex;
+    background-color:#e600e6;
+    align-items:center;
+     color:white;
+    justify-content: center;
+    height:100%;
+    border:1px solid white;
+}
+
+.container-strength:hover, .container-zumba2:hover, .container-crossfit2:hover{
+    /* text-transform:uppercase;
+    box-shadow:2px 2px 2px 2px #7c5868;*/
+    background: plum;
+}
+
+.break-section{
+    padding-bottom:2rem;
+}
+
+.organised-groups{
+    height:15rem;
+    width:50rem;
+}
+
+.mainbox{
+	display:block;
+	margin:auto;
+}
+
+/*/////////  TRAINER PLANNER  */
+.container-planner-day2{
+    display:block;
+    background-color:grey;
+    height:40px;
+    text-align: center;
+    border:1px solid white;
+}
+
+.container-planner-hour2{
+    display:flex;
+    background-color:grey;
+    align-items:center;
+    justify-content: center;
+    height:40px;
+    border:1px solid white;
+}
+
+.container-planner2{
+    display:flex;
+    background-color:lightgray;
+    align-items:center;
+    justify-content: center;
+    height:40px;
+    border:1px solid white;
+}
+
+.container-crossfit2{
+    display:flex;
+    background-color:#402640;
+    color:white;
+    align-items:center;
+    justify-content: center;
+    height:40px;
+    border:1px solid white;
+}
+
+.container-zumba2{
+    display:flex;
+    background-color:#800080;
+    align-items:center;
+    color:white;
+    justify-content: center;
+    height:40px;
+    border:1px solid white;
+}
+
+.container-strength2{
+    display:flex;
+    background-color:#e600e6;
+    align-items:center;
+    color:white;
+    justify-content: center;
+    height:40px;
+    border:1px solid white;
+}
+
+.container-strength2:hover, .container-zumba2:hover, .container-crossfit2:hover{
+    /* text-transform:uppercase;
+    box-shadow:2px 2px 2px 2px #7c5868;*/
+    background: plum;
+}
+
+.plannerRow-days2{
+    height:2.5rem;
+    padding:0.1rem;
+}
+.plannerColumn2{
+    padding:0.15rem;
+}
+
+.plannerRow2{
+    height:2.5rem;
+}
